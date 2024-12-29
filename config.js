@@ -2,17 +2,17 @@ require('dotenv').config(); // Load environment variables
 
 module.exports = {
     prefix: process.env.PREFIX || '.', // Command prefix
-    ownerName: process.env.OWNER_NAME || 'DIVINE🌸', // Owner name
-    ownerNumber: process.env.OWNER_NUMBER || '2348050270795', // Your WhatsApp number
-    mode: process.env.MODE || 'private', // Bot mode: 'public' or 'private'
+    ownerName: process.env.OWNER_NAME || 'STORM🌸', // Owner name
+    ownerNumber: process.env.OWNER_NUMBER || '2347065972908', // Your WhatsApp number
+    mode: process.env.MODE || 'private', // Bot mode: 'private' or 'private'
     region: process.env.REGION || 'Nigeria', // Region
     botName: process.env.BOT_NAME || 'Rias Gremory V3', // Bot name
-    exifPack: process.env.EXIF_PACK || 'DIVINE LOVES🌸', // Sticker pack name
-    exifAuthor: process.env.EXIF_AUTHOR || 'DIVINE🌸', // Author of the sticker pack
+    exifPack: process.env.EXIF_PACK || 'STORM LOVES🌸', // Sticker pack name
+    exifAuthor: process.env.EXIF_AUTHOR || 'STORM🌸', // Author of the sticker pack
     timeZone: process.env.TIME_ZONE || 'Africa/Lagos', // Time zone
     presenceStatus: process.env.PRESENCE_STATUS || 'typing', // Bot presence status
     autoRead: process.env.AUTO_READ === 'true', // Auto-read messages (true or false)
     autoViewStatus: process.env.AUTO_VIEW_STATUS === 'true', // Auto-view statuses (true or false)
     autoReact: process.env.AUTO_REACT === 'true', // Auto-react (true or false)
-    sessionId: process.env.SESSION_ID || ''// Add Your Session ID here
+    sessionId: process.env.SESSION_ID || 'eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiTU5tRSs0MjROVEpmcktzcDA5cHhZb0JVMTVhdmx6cFkxSWx4bHNqUXFuOD0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiT0ZvN0t0eERxNlFCZFJaaEc3aXJuVUFta0pUMnluelVXb2dPeG9KRVhHUT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJPUFlKU2Q5ZTZNNXdzelNrMGE1N2hLMlpsaWVaa0hSbEd6aU5KcG16STMwPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJsb0JPZlRlWFJZc0gxdS9LVVNrT3JON2dudUYzaFNFMk96NFozVEh4WkdnPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjZLZU5qVnFVWkcvU2lRZFVpaGdvbzV5WEZQekdKdDJzQnpsRkxlYTNkSGM9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImhCUGp6RUxCeElkZGlnYUtqdzJNZlVpQytFdHlaVnd2S1EwZWQ1cWFRa2s9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoid0pVQkFxa3ZkZmJpSEptYWFubGJKMURkcks2MExxRXpNKy96dDVqL0VHND0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoid3pObjRTVzF0TnoxR1piUEg3T1FLYTlreTdoaGc5cmFJdFdpQVk1VW9rOD0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImJPbU9vZW14RTg2dlVuUmk3OFdyUVZxRkR1OEtwOGQ4L25DZTFxTjVSR3VuTThQNnY3aDkvVFh3akt4ZWpQT0JhRnVUZEord2ZhMnB1aUh5WDV2akJ3PT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MjQ0LCJhZHZTZWNyZXRLZXkiOiJTYS9tWmlQS2tKRkUyeXNEYWRGRnc2NnJoUEJhd1pJeEpnSm1zWDdhMiswPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwicmVnaXN0ZXJlZCI6dHJ1ZSwicGFpcmluZ0NvZGUiOiJISFZXOTkxSyIsIm1lIjp7ImlkIjoiMjM0NzA2NTk3MjkwODo4NEBzLndoYXRzYXBwLm5ldCIsImxpZCI6IjE4MzAxMDkwNjUzNTQ6ODRAbGlkIn0sImFjY291bnQiOnsiZGV0YWlscyI6IkNPcXg3c0FIRUtpcXdyc0dHQUVnQUNnQSIsImFjY291bnRTaWduYXR1cmVLZXkiOiIvNDZxQjhlNlRLdUlYWnI3Y0sxcHp3SmIyTHhCS0Y4WVlVeGhuNkJib0hjPSIsImFjY291bnRTaWduYXR1cmUiOiJlMjU3aDFkR09jUmVrSzY1dWFxaVZBbzFGWk9rb2VpcC9DZ1lnNHU1bU1kMmtzMThzcldPUXA5L0p4T05kSzlJK2s1ZkRJWFkrOStNS3AxMldGTS9DUT09IiwiZGV2aWNlU2lnbmF0dXJlIjoiK3RUZFBTZnQ5bWROemwvU3Myb2wxOE9HL0d1ZW9xOWJXcGxkVFZkUlJNVklWSlJhbHE0dVBsa3NPVEVza2JmeHpIRFozL1I5UTc0YllLV0VjQTlyQmc9PSJ9LCJzaWduYWxJZGVudGl0aWVzIjpbeyJpZGVudGlmaWVyIjp7Im5hbWUiOiIyMzQ3MDY1OTcyOTA4Ojg0QHMud2hhdHNhcHAubmV0IiwiZGV2aWNlSWQiOjB9LCJpZGVudGlmaWVyS2V5Ijp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQmYrT3FnZkh1a3lyaUYyYSszQ3RhYzhDVzlpOFFTaGZHR0ZNWVorZ1c2QjMifX1dLCJwbGF0Zm9ybSI6ImFuZHJvaWQiLCJyb3V0aW5nSW5mbyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkNBVUlBZz09In0sImxhc3RBY2NvdW50U3luY1RpbWVzdGFtcCI6MTczNTQzMTQ3NywibGFzdFByb3BIYXNoIjoiMk8wZnRvIiwibXlBcHBTdGF0ZUtleUlkIjoiQUFBQUFMMGwifQ'// Add Your Session ID here
 };
