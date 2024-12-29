@@ -5,7 +5,7 @@
   
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines=THANKS FOR CHOOSING ;QUEEN+RIAS;MULTI+DEVICE+WHATSAPP+BOT;CREATED+BY+TOXXIC+BOY;RELEASED+26.11.24" alt="Typing SVG" /></a>
   </p>
-  <a href="https://ibb.co/z4zcqKb"><img src="https://i.ibb.co/bKkhcpL/IMG-20241124-WA0446.jpg" alt="IMG-20241124-WA0446" border="0"></a>
+  <a href="https://api.tioo.eu.org/file/9DzKsJfI4AeS.jpeg"><img src="https://api.tioo.eu.org/file/9DzKsJfI4AeS.jpeg" alt="IMG-20241124-WA0446" border="0"></a>
 <p align="center">
 <pQUEEN-RIAS align="center">
 <a href="https://github.com/Toxic1239/Queen-RiasV3"><img title="Author" src="https://img.shields.io/badge/Rias Gremory-black?style=for-the-badge&logo=github"></a>
