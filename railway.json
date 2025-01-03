@@ -1,0 +1,16 @@
+{
+  "name": "Queen RiasV3",
+  "description": "For deploying Queen RiasV3.",
+  "repository": "https://github.com/Toxic1239/Queen-RiasV3",
+  "build": {
+    "commands": {
+      "install": "yarn install",
+      "start": "yarn start"
+    }
+  },
+  "envs": {
+    "SESSION_ID": {
+      "description": "Put Your Session Id"
+    }
+  }
+}
